@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/UseTheHill/team_profile_generator/issues"
   },
-  "homepage": "https://github.com/UseTheHill/team_profile_generator#readme"
+  "homepage": "https://github.com/UseTheHill/team_profile_generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
 }
