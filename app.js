@@ -68,3 +68,25 @@ let verify = [
         default: true,
     },
 ];
+
+function addEmployee() {
+    inquirer.prompt(employeeBasics).then((response) => {
+        let name = response.name;
+        let id = response.id;
+        let email = response.email;
+        if (response.employeeType === "Manager") {
+            inquirer.prompt(managerSpecifics).then((response) => {
+                let newEmployee = new Manager(name, id, email, response.officeNumer);
+                teamMembers.push(newEmployee);
+                console.log(teamMembers);
+                checkComplete();
+            });
+        };
+
+
+    })
+};
+
+function checkComplete() {
+    
+}
