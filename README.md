@@ -23,7 +23,7 @@ npm --i
 ## Usage
 Here's a quick look at what this app can do:  
 
-![team-profile-generator](Develop/demoMyTeam.gif)
+![team-profile-generator](Develop/MyTeamDemo.gif)
 
 Here's example content of what this app can generate:  
 
